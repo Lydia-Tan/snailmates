@@ -1,0 +1,59 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    background-color: #FAF3E3;
+    
+}
+
+.bg-*{
+    background-color: #FAF3E3;
+}
+
+.navbar-brand{
+    padding: 1%;
+}
+
+main img{
+    width: 100%;
+}
+
+.img-gallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+
+}
+
+.profile-gallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+}
+
+/* .profile-gallery img{
+    width: 100%;
+} */
+
+
+.skip a{
+    position: absolute;
+    top: -40px;
+}
+  
+.skip a:focus{
+position: absolute;
+top: 20px;
+}
+
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+  
+  
