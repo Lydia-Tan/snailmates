@@ -15,11 +15,9 @@ html,body
 main{
     width: 100%;
 }
-/* .bg-*{
-    background-color: #FAF3E3;
-} */
 
-@media screen and (max-width:600px){
+
+/* @media screen and (max-width:900px){ */
     .landing img{
         width: 439px;
         align-items: center;
@@ -161,7 +159,7 @@ main{
         position: relative;
         bottom: 0;
     }
-}
+/* } */
 
 
 @media screen and (min-width:1500px){
@@ -174,26 +172,6 @@ main{
         width: 100%;
     }
 
-    .img-gallery{
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(4, 1fr);
-        flex-direction: row;
-
-    }
-
-    .profile-gallery{
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(4, 1fr);
-        flex-direction: row;
-    }
-
-    /* .profile-gallery img{
-        width: 100%;
-    } */
-
-
     .skip a{
         position: absolute;
         top: -40px;
@@ -204,7 +182,6 @@ main{
     top: 20px;
     }
 
-
     .skip a{
         background: white;
         left: 0;
@@ -214,19 +191,60 @@ main{
         z-index: 1;
     }
     
-    main{
-        width:100%;
-    }
-    .landing{
+    .firstsection{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .landing{
+        padding: 0;
+        width: 100%;
+    }
+
+    .center1 img{
         width: 100%;
     }
 
     .center1{
         width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
+
     .center2{
         width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+        text-align: left;
     }
+    .center2 button{
+        justify-content:center;
+        width: 50%;
+    }
+    .landing h1{
+        font-size: 3rem;
+    }
+    .landing p{
+        font-size: 1.5rem;
+    }
+
+    .signup{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .signup img{
+        display: grid;
+        width: 80%;
+        justify-content:center;
+    }
+
+
 }
