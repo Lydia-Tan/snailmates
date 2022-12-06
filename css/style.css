@@ -127,6 +127,8 @@ h1{
 }
 
 .skip a{
+    background: #000000;
+    color: #ffffff;
     position: absolute;
     top: -40px;
 }
@@ -137,8 +139,8 @@ h1{
 }
 
 .skip a{
-    background: #000000;
     left: 0;
+    background: #000000;
     color: #ffffff;
     padding: 6px;
     -webkit-transition: top 1s ease-out;
@@ -353,6 +355,8 @@ iframe{
     }
     
     .skip a{
+        background: #000000;
+        color: #ffffff;
         position: absolute;
         top: -40px;
     }
@@ -545,17 +549,20 @@ iframe{
     }
 
     .skip a{
+        color: #ffffff;
+        background: #000000;
         position: absolute;
         top: -40px;
     }
     
     .skip a:focus{
-    position: absolute;
-    top: 20px;
+        position: absolute;
+        top: 20px;
     }
-
+    
     .skip a{
-        background: white;
+        background: #000000;
+        color: #ffffff;
         left: 0;
         padding: 6px;
         -webkit-transition: top 1s ease-out;
